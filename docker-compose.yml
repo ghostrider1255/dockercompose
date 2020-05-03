@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  db:
+    image:mysql
+    ports:
+    - "3306:3306"
+    environment:
+    - MYSQL_ROOT_PASSWORD=password1
+    - MYSQL_USER=user
+    - MYSQL_PASSWORD=password2
+    - MYSQL_DATABASE=database
+  discovery:
+    image:localhost:5000/discoveryengine:28
+    ports:
+    - "8010:8010"
+    volumes:
+    - ./config/discovery:/opt/config/
+    depends_on:
+    - db
