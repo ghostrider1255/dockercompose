@@ -1,7 +1,8 @@
 version: '3'
 
 services:
-  db:
+  mysql:
+    container_name: app-mysql
     image: mysql
     ports:  
       - "3308:3306"
@@ -10,11 +11,12 @@ services:
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password2
       - MYSQL_DATABASE=database
-  discovery:  
+  discovery: 
+    container_name: app-disco
     image: localhost:5000/discoveryengine:28
     ports:  
       - "8010:8010"
     volumes: 
       - ./config/discovery:/opt/config/
     depends_on: 
-      - db
+      - mysql
