@@ -6,17 +6,36 @@ services:
     image: mysql
     ports:  
       - "3308:3306"
+    networks:
+      - my-network
     environment:
-      - MYSQL_ROOT_PASSWORD=password1
-      - MYSQL_USER=user
-      - MYSQL_PASSWORD=password2
-      - MYSQL_DATABASE=database
+      - MYSQL_ROOT_PASSWORD=${VAL_MYSQL_ROOT_PWD}
+      - MYSQL_USER=${VAL_MYSQL_USER}
+      - MYSQL_PASSWORD=${VAL_MYSQL_PASSWORD}
+      - MYSQL_DATABASE=${VAL_MYSQL_DATABASE}
   discovery: 
     container_name: app-disco
-    image: localhost:5000/discoveryengine:28
+    image: localhost:5000/discoengine:${IMAGE_VARSION_DISCO_ENGINE}
     ports:  
       - "8010:8010"
+    networks:
+      - my-network
     volumes: 
       - ./config/discovery:/opt/config/
     depends_on: 
       - mysql
+  gateway:
+    container_name: app-gateway
+    image: localhost:5000/gatewayengine:${IMAGE_VARSION_GATEWAY_ENGINE}
+    ports:  
+      - "8010:8011"
+    networks:
+      - my-network
+    volumes: 
+      - ./config/gatekeeper:/opt/config/
+    depends_on: 
+      - discovery
+    links:
+      - "app-disco:app-disco"
+networks:
+  my-network
