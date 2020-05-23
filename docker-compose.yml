@@ -35,8 +35,20 @@ services:
       - ./config/gatekeeper:/opt/config/
     depends_on: 
       - discovery 
+      - mysql
     command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
     links:
       - "discovery"
+  authengine:
+    container_name: app-auth
+    image: localhost:5000/authengine:${IMAGE_VARSION_AUTHENTICATION_ENGINE}
+    networks:  
+      - my-network
+    volumes: 
+      - ./config/authentication:/opt/config/
+    depends_on: 
+      - gateway
+    command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
+
 networks:
   my-network:
