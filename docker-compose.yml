@@ -28,14 +28,15 @@ services:
     container_name: app-gateway
     image: localhost:5000/gatewayengine:${IMAGE_VARSION_GATEWAY_ENGINE}
     ports:  
-      - "8010:8011"
+      - "8011:8011"
     networks:
       - my-network
     volumes: 
       - ./config/gatekeeper:/opt/config/
     depends_on: 
-      - discovery
+      - discovery 
+    command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
     links:
-      - "app-disco:app-disco"
+      - "discovery"
 networks:
-  my-network
+  my-network:
