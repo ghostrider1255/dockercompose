@@ -49,6 +49,19 @@ services:
     depends_on: 
       - gateway
     command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
+  inventory:
+    container_name: app-inventory
+    image: localhost:5000/inventory:${IMAGE_VARSION_INVENTORY_ENGINE}
+    networks:  
+      - my-network
+    volumes: 
+      - ./config/inventory:/opt/config/
+    depends_on: 
+      - discovery 
+      - mysql
+    command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
+    links:
+      - "discovery"
 
 networks:
   my-network:
