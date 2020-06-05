@@ -48,6 +48,7 @@ services:
       - ./config/authentication:/opt/config/
     depends_on: 
       - gateway
+      - mysql
     command: ["curl","-s","--fail","--show-error","http://app-disco:8010",">","/dev/null"]
   inventory:
     container_name: app-inventory
