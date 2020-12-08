@@ -8,6 +8,8 @@ services:
       - "3308:3306"
     networks:
       - my-network
+    volumes: 
+      - ../docker-mysql-volum/mysql-data:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=${VAL_MYSQL_ROOT_PWD}
       - MYSQL_USER=${VAL_MYSQL_USER}
