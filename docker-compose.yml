@@ -59,6 +59,7 @@ services:
       - my-network
     volumes: 
       - ./config/inventory:/opt/config/
+      - ./config/inventory/logs:/var/logs/appLogs/
     depends_on: 
       - discovery 
       - mysql
