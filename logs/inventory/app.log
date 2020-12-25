@@ -1,0 +1,1145 @@
+2020-12-20 14:51:12,602 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-20 14:51:14,604 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-20 14:51:14,604 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-20 14:51:24,921 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-20 14:51:26,921 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1906ms. Found 4 JPA repository interfaces.
+2020-12-20 14:51:30,245 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-20 14:51:33,879 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-20 14:51:36,993 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-20 14:51:36,993 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-20 14:51:37,137 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-20 14:51:37,170 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-20 14:51:37,212 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-20 14:51:38,089 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-20 14:51:38,099 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 23216 ms
+2020-12-20 14:51:45,069 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-20 14:51:50,953 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-20 14:51:53,897 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-20 14:51:58,470 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-20 14:51:58,559 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-20 14:52:03,277 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-20 14:52:05,039 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-20 14:52:11,836 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-20 14:52:19,380 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-20 14:52:19,458 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-20 14:52:23,697 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-20 14:52:23,697 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-20 14:52:24,307 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 6fcf707e-9ace-4310-99d1-ff68bea6eef1
+
+2020-12-20 14:52:24,307 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 6fcf707e-9ace-4310-99d1-ff68bea6eef1
+
+2020-12-20 14:52:25,125 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79f227a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c321bdb, org.springframework.security.web.header.HeaderWriterFilter@33a2499c, org.springframework.security.web.authentication.logout.LogoutFilter@2c22a348, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3abd581e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0628de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ca320ab, org.springframework.security.web.session.SessionManagementFilter@33c2bd, org.springframework.security.web.access.ExceptionTranslationFilter@10b3df93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f6a7463]
+2020-12-20 14:52:25,340 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-20 14:52:25,347 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-20 14:52:25,478 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-20 14:52:25,483 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-20 14:52:26,706 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-20 14:52:28,928 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-20 14:52:29,061 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 44769 (http) with context path ''
+2020-12-20 14:52:29,061 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 44769 (http) with context path ''
+2020-12-20 14:52:29,062 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 44769
+2020-12-20 14:52:29,097 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-20 14:52:29,682 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-20 14:52:32,108 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-20 14:52:32,108 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-20 14:52:32,863 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-20 14:52:32,863 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-20 14:52:33,789 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-20 14:52:33,950 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-20 14:52:33,951 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-20 14:52:33,951 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-20 14:52:33,953 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-20 14:52:33,954 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-20 14:52:33,954 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-20 14:52:33,954 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-20 14:52:34,620 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-20 14:52:34,626 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-20 14:52:34,633 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-20 14:52:34,646 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608475954646 with initial instances count: 1
+2020-12-20 14:52:34,658 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-20 14:52:34,659 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608475954659, current=UP, previous=STARTING]
+2020-12-20 14:52:34,697 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 95.495 seconds (JVM running for 125.031)
+2020-12-20 14:52:34,697 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 95.495 seconds (JVM running for 125.031)
+2020-12-20 14:52:34,706 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:71ef461a6e8ff234ba6cabed62dfe7dc: registering service...
+2020-12-20 14:52:34,787 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:71ef461a6e8ff234ba6cabed62dfe7dc - registration status: 204
+2020-12-20 14:57:33,958 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:02:33,959 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:07:33,962 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:12:33,965 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:17:33,966 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:22:33,967 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:27:33,968 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:32:33,970 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:37:33,972 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:42:33,975 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:47:33,976 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:52:33,978 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 15:57:33,979 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:02:33,982 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:07:33,984 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:12:33,985 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:17:33,988 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:22:33,990 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:27:33,991 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:32:33,993 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:37:33,995 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:42:33,996 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:47:34,002 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:52:34,004 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 16:57:34,007 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:02:34,009 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:07:34,046 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:12:34,048 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:17:34,050 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:18:57,429 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application INVENTORYMS with eureka with status DOWN
+2020-12-20 17:18:57,640 WARN c.n.d.DiscoveryClient [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1608484737639, current=DOWN, previous=UP]
+2020-12-20 17:18:57,655 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:71ef461a6e8ff234ba6cabed62dfe7dc: registering service...
+2020-12-20 17:18:59,121 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:71ef461a6e8ff234ba6cabed62dfe7dc - registration status: 204
+2020-12-20 17:18:59,363 INFO o.s.s.c.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-20 17:19:00,250 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-20 17:19:01,985 INFO c.n.d.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2020-12-20 17:30:21,359 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-20 17:30:26,952 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-20 17:30:26,952 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-20 17:30:50,777 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-20 17:30:53,391 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 2465ms. Found 4 JPA repository interfaces.
+2020-12-20 17:31:00,760 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-20 17:31:07,479 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-20 17:31:15,081 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-20 17:31:15,081 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-20 17:31:15,548 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-20 17:31:15,681 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-20 17:31:15,815 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-20 17:31:18,631 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-20 17:31:18,648 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 50977 ms
+2020-12-20 17:31:44,942 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-20 17:31:55,651 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-20 17:32:01,069 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-20 17:32:06,550 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-20 17:32:06,823 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-20 17:32:17,386 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-20 17:32:21,434 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-20 17:32:34,367 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-20 17:32:50,722 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-20 17:32:50,876 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-20 17:33:03,465 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-20 17:33:03,465 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-20 17:33:06,406 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0c8af6a0-4487-4921-b8fb-5ec4d4b31865
+
+2020-12-20 17:33:06,406 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0c8af6a0-4487-4921-b8fb-5ec4d4b31865
+
+2020-12-20 17:33:09,133 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@323e8306, org.springframework.security.web.context.SecurityContextPersistenceFilter@12f3afb5, org.springframework.security.web.header.HeaderWriterFilter@610db97e, org.springframework.security.web.authentication.logout.LogoutFilter@5cbf9e9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c22a348, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51b01960, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a23a01d, org.springframework.security.web.session.SessionManagementFilter@3fabf088, org.springframework.security.web.access.ExceptionTranslationFilter@3abd581e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6754ef00]
+2020-12-20 17:33:09,713 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-20 17:33:09,716 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-20 17:33:09,893 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-20 17:33:09,900 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-20 17:33:15,397 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-20 17:33:22,801 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-20 17:33:23,074 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 36606 (http) with context path ''
+2020-12-20 17:33:23,074 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 36606 (http) with context path ''
+2020-12-20 17:33:23,108 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 36606
+2020-12-20 17:33:23,269 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-20 17:33:24,753 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-20 17:33:26,604 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-20 17:33:26,610 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-20 17:33:29,129 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-20 17:33:29,134 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-20 17:33:34,513 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-20 17:33:35,668 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-20 17:33:35,671 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-20 17:33:35,676 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-20 17:33:35,676 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-20 17:33:35,677 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-20 17:33:35,677 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-20 17:33:35,692 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-20 17:33:42,054 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-20 17:33:42,112 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-20 17:33:42,178 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-20 17:33:42,269 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608485622252 with initial instances count: 1
+2020-12-20 17:33:42,317 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-20 17:33:42,323 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608485622323, current=UP, previous=STARTING]
+2020-12-20 17:33:42,389 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 221.363 seconds (JVM running for 277.191)
+2020-12-20 17:33:42,389 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 221.363 seconds (JVM running for 277.191)
+2020-12-20 17:33:42,445 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:c20beeb2aefe94d92f5fbb1e0477756e: registering service...
+2020-12-20 17:33:43,090 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:c20beeb2aefe94d92f5fbb1e0477756e - registration status: 204
+2020-12-20 17:38:35,712 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-20 17:43:35,714 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:10:30,939 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:10:32,695 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:10:32,695 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:10:50,189 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-21 16:10:52,702 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 2144ms. Found 4 JPA repository interfaces.
+2020-12-21 16:10:56,197 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-21 16:11:00,351 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:11:04,875 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:11:04,875 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:11:05,074 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:11:05,168 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-21 16:11:05,213 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-21 16:11:06,536 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-21 16:11:06,545 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 33643 ms
+2020-12-21 16:11:17,625 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-21 16:11:22,192 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-21 16:11:25,140 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-21 16:11:27,583 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-21 16:11:27,654 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-21 16:11:29,767 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-21 16:11:31,050 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-21 16:11:33,415 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-21 16:11:38,458 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-21 16:11:38,510 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-21 16:11:42,708 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:11:42,708 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:11:43,472 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4b8047a8-4582-4932-92a7-a4a96dd1541e
+
+2020-12-21 16:11:43,472 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4b8047a8-4582-4932-92a7-a4a96dd1541e
+
+2020-12-21 16:11:44,007 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a23a01d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ced35ed, org.springframework.security.web.header.HeaderWriterFilter@6f0628de, org.springframework.security.web.authentication.logout.LogoutFilter@18e8473e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bd69e82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6831d8fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4acf72b6, org.springframework.security.web.session.SessionManagementFilter@1e392345, org.springframework.security.web.access.ExceptionTranslationFilter@4d4d8fcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@619bd14c]
+2020-12-21 16:11:44,634 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:11:44,642 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:11:44,706 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:11:44,708 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:11:46,378 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 16:11:49,996 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:11:50,105 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 34386 (http) with context path ''
+2020-12-21 16:11:50,105 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 34386 (http) with context path ''
+2020-12-21 16:11:50,111 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 34386
+2020-12-21 16:11:50,168 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-21 16:11:50,730 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-21 16:11:51,449 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-21 16:11:51,450 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-21 16:11:52,395 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-21 16:11:52,407 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-21 16:11:54,009 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-21 16:11:54,594 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-21 16:11:54,594 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-21 16:11:54,597 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-21 16:11:54,597 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-21 16:11:54,597 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-21 16:11:54,598 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-21 16:11:54,598 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-21 16:11:55,329 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-21 16:11:55,338 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-21 16:11:55,375 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-21 16:11:55,427 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608567115418 with initial instances count: 0
+2020-12-21 16:11:55,457 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-21 16:11:55,458 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608567115458, current=UP, previous=STARTING]
+2020-12-21 16:11:55,623 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 93.795 seconds (JVM running for 145.951)
+2020-12-21 16:11:55,623 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 93.795 seconds (JVM running for 145.951)
+2020-12-21 16:11:55,624 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:594bee1bf2391f1f8440a60aaab29ad3: registering service...
+2020-12-21 16:11:56,620 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:594bee1bf2391f1f8440a60aaab29ad3 - registration status: 204
+2020-12-21 16:12:25,339 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-12-21 16:12:25,341 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-12-21 16:12:25,346 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-12-21 16:12:25,346 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-12-21 16:12:25,347 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-12-21 16:12:25,347 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-12-21 16:12:25,348 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-12-21 16:12:26,732 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-12-21 16:16:54,610 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:21:54,611 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:27:43,962 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:27:45,564 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:27:45,564 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:27:56,269 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-21 16:27:57,532 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1135ms. Found 4 JPA repository interfaces.
+2020-12-21 16:28:01,256 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-21 16:28:04,494 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:28:09,085 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:28:09,085 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:28:09,228 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:28:09,303 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-21 16:28:09,315 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-21 16:28:10,222 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-21 16:28:10,228 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 24411 ms
+2020-12-21 16:28:16,884 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-21 16:28:22,118 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-21 16:28:25,705 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-21 16:28:28,449 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-21 16:28:28,518 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-21 16:28:32,935 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-21 16:28:34,290 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-21 16:28:41,267 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-21 16:28:48,620 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-21 16:28:48,709 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-21 16:28:52,310 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:28:52,310 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:28:52,873 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 1a215efa-0256-42b1-85a2-3d77cb57f6ba
+
+2020-12-21 16:28:52,873 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 1a215efa-0256-42b1-85a2-3d77cb57f6ba
+
+2020-12-21 16:28:53,326 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+2020-12-21 16:28:53,616 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:28:53,628 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:28:53,748 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:28:53,754 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:28:54,831 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 16:28:57,132 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:28:57,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 44188 (http) with context path ''
+2020-12-21 16:28:57,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 44188 (http) with context path ''
+2020-12-21 16:28:57,330 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 44188
+2020-12-21 16:28:57,381 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-21 16:28:57,842 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-21 16:28:58,414 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-21 16:28:58,415 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-21 16:28:59,286 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-21 16:28:59,286 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-21 16:29:00,144 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-21 16:29:00,237 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-21 16:29:00,241 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-21 16:29:00,241 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-21 16:29:00,241 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-21 16:29:00,241 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-21 16:29:00,242 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-21 16:29:00,242 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-21 16:29:00,907 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-21 16:29:00,925 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-21 16:29:00,931 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-21 16:29:00,944 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608568140943 with initial instances count: 2
+2020-12-21 16:29:00,947 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-21 16:29:00,948 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608568140948, current=UP, previous=STARTING]
+2020-12-21 16:29:00,952 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:d24828d2e33b4879d10c3ff918f851aa: registering service...
+2020-12-21 16:29:00,965 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 84.836 seconds (JVM running for 107.705)
+2020-12-21 16:29:00,965 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 84.836 seconds (JVM running for 107.705)
+2020-12-21 16:29:01,041 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:d24828d2e33b4879d10c3ff918f851aa - registration status: 204
+2020-12-21 16:34:00,247 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:38:52,990 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:38:54,717 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:38:54,717 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:39:06,304 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-21 16:39:07,626 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1256ms. Found 4 JPA repository interfaces.
+2020-12-21 16:39:11,078 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-21 16:39:14,373 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:39:18,444 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:39:18,444 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:39:18,592 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:39:18,631 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-21 16:39:18,669 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-21 16:39:19,634 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-21 16:39:19,634 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 24693 ms
+2020-12-21 16:39:26,076 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-21 16:39:32,151 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-21 16:39:34,535 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-21 16:39:37,311 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-21 16:39:37,392 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-21 16:39:41,046 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-21 16:39:42,741 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-21 16:39:49,220 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-21 16:39:54,493 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-21 16:39:54,550 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-21 16:39:57,974 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:39:57,974 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:39:58,753 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5dfd9957-c5ad-4f43-b045-4d14d03760fb
+
+2020-12-21 16:39:58,753 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5dfd9957-c5ad-4f43-b045-4d14d03760fb
+
+2020-12-21 16:39:59,364 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bdaa23d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c321bdb, org.springframework.security.web.header.HeaderWriterFilter@33a2499c, org.springframework.security.web.authentication.logout.LogoutFilter@2c22a348, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3abd581e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0628de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79f227a9, org.springframework.security.web.session.SessionManagementFilter@33c2bd, org.springframework.security.web.access.ExceptionTranslationFilter@10b3df93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b27cc70]
+2020-12-21 16:39:59,559 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:39:59,564 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:39:59,614 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:39:59,617 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:40:01,355 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 16:40:05,320 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:40:05,734 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 39618 (http) with context path ''
+2020-12-21 16:40:05,734 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 39618 (http) with context path ''
+2020-12-21 16:40:05,746 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 39618
+2020-12-21 16:40:05,779 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-21 16:40:06,254 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-21 16:40:07,493 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-21 16:40:07,494 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-21 16:40:08,764 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-21 16:40:08,770 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-21 16:40:10,774 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-21 16:40:11,087 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-21 16:40:11,101 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-21 16:40:11,101 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-21 16:40:11,101 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-21 16:40:11,101 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-21 16:40:11,101 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-21 16:40:11,102 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-21 16:40:13,515 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-21 16:40:13,522 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-21 16:40:13,549 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-21 16:40:13,602 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608568813582 with initial instances count: 0
+2020-12-21 16:40:13,644 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-21 16:40:13,665 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608568813665, current=UP, previous=STARTING]
+2020-12-21 16:40:13,777 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 87.53 seconds (JVM running for 110.34)
+2020-12-21 16:40:13,778 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:b8072129406ebbe62f9f9f1fd394ea12: registering service...
+2020-12-21 16:40:13,777 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 87.53 seconds (JVM running for 110.34)
+2020-12-21 16:40:16,192 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:b8072129406ebbe62f9f9f1fd394ea12 - registration status: 204
+2020-12-21 16:40:43,522 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-12-21 16:40:43,523 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-12-21 16:40:43,525 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-12-21 16:40:43,529 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-12-21 16:40:43,529 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-12-21 16:40:43,529 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-12-21 16:40:43,530 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-12-21 16:40:44,830 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-12-21 16:45:11,115 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:50:11,116 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:55:11,119 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 16:56:12,671 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:56:14,594 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:56:14,594 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-21 16:56:25,879 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-21 16:56:27,091 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1095ms. Found 4 JPA repository interfaces.
+2020-12-21 16:56:30,873 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-21 16:56:34,314 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-21 16:56:37,057 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:56:37,057 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-21 16:56:37,157 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:56:37,187 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-21 16:56:37,209 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-21 16:56:37,948 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-21 16:56:37,953 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 23025 ms
+2020-12-21 16:56:44,531 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-21 16:56:49,401 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-21 16:56:51,960 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-21 16:56:54,694 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-21 16:56:54,757 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-21 16:56:58,206 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-21 16:56:59,987 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-21 16:57:03,898 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-21 16:57:09,147 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-21 16:57:09,211 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-21 16:57:11,978 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:57:11,978 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-21 16:57:12,584 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0b744b10-c4b3-4738-b9d9-6c095b2df967
+
+2020-12-21 16:57:12,584 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0b744b10-c4b3-4738-b9d9-6c095b2df967
+
+2020-12-21 16:57:13,156 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+2020-12-21 16:57:13,311 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:57:13,316 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:57:13,374 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-21 16:57:13,375 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-21 16:57:14,705 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-21 16:57:17,572 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-21 16:57:17,713 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 45637 (http) with context path ''
+2020-12-21 16:57:17,713 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 45637 (http) with context path ''
+2020-12-21 16:57:17,715 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 45637
+2020-12-21 16:57:17,765 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-21 16:57:18,316 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-21 16:57:18,915 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-21 16:57:18,916 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-21 16:57:19,355 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-21 16:57:19,360 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-21 16:57:20,054 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-21 16:57:20,186 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-21 16:57:20,626 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-21 16:57:20,630 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-21 16:57:20,644 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-21 16:57:20,654 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608569840653 with initial instances count: 0
+2020-12-21 16:57:20,661 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-21 16:57:20,663 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608569840663, current=UP, previous=STARTING]
+2020-12-21 16:57:20,688 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:f4ad45096ef8818ae21bbffe0ea98ef0: registering service...
+2020-12-21 16:57:20,690 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 75.632 seconds (JVM running for 96.457)
+2020-12-21 16:57:20,690 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 75.632 seconds (JVM running for 96.457)
+2020-12-21 16:57:20,866 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:f4ad45096ef8818ae21bbffe0ea98ef0 - registration status: 204
+2020-12-21 16:57:50,632 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-12-21 16:57:50,640 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-12-21 16:57:50,653 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-12-21 16:57:50,653 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-12-21 16:57:50,654 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-12-21 16:57:50,654 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-12-21 16:57:50,654 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-12-21 16:57:51,041 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-12-21 17:02:20,194 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:07:20,197 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:12:20,201 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:17:20,204 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:22:20,206 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:27:20,208 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:32:20,209 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:37:20,210 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:42:20,212 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:47:20,214 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:52:20,215 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 17:57:20,216 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:02:20,221 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:07:20,222 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:12:20,222 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:17:20,223 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:22:20,226 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-21 18:27:20,227 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-24 16:42:12,628 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-24 16:42:14,399 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-24 16:42:14,399 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-24 16:42:28,774 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-24 16:42:30,581 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1633ms. Found 4 JPA repository interfaces.
+2020-12-24 16:42:35,538 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-24 16:42:39,750 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-24 16:42:43,360 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-24 16:42:43,360 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-24 16:42:43,569 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-24 16:42:43,621 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-24 16:42:43,644 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-24 16:42:44,575 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-24 16:42:44,580 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 29899 ms
+2020-12-24 16:42:53,298 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-24 16:42:57,817 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-24 16:43:08,751 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-24 16:43:12,059 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-24 16:43:12,164 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-24 16:43:16,705 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-24 16:43:19,334 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-24 16:43:24,123 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-24 16:43:31,740 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-24 16:43:31,930 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-24 16:43:36,341 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-24 16:43:36,341 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-24 16:43:37,098 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 26a88286-f4c1-4944-9cab-89267b914408
+
+2020-12-24 16:43:37,098 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 26a88286-f4c1-4944-9cab-89267b914408
+
+2020-12-24 16:43:37,782 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+2020-12-24 16:43:37,922 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-24 16:43:37,932 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-24 16:43:38,108 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-24 16:43:38,110 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-24 16:43:39,620 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-24 16:43:42,643 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-24 16:43:42,750 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 37140 (http) with context path ''
+2020-12-24 16:43:42,750 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 37140 (http) with context path ''
+2020-12-24 16:43:42,757 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 37140
+2020-12-24 16:43:42,836 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-24 16:43:44,024 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-24 16:43:45,214 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-24 16:43:45,216 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-24 16:43:46,562 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-24 16:43:46,575 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-24 16:43:48,650 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-24 16:43:48,985 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-24 16:43:48,986 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-24 16:43:48,987 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-24 16:43:48,987 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-24 16:43:48,987 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-24 16:43:48,987 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-24 16:43:48,987 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-24 16:43:50,694 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-24 16:43:50,714 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-24 16:43:50,753 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-24 16:43:50,768 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608828230767 with initial instances count: 1
+2020-12-24 16:43:50,797 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-24 16:43:50,811 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608828230811, current=UP, previous=STARTING]
+2020-12-24 16:43:51,058 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 106.869 seconds (JVM running for 141.68)
+2020-12-24 16:43:51,058 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 106.869 seconds (JVM running for 141.68)
+2020-12-24 16:43:51,091 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:343fbd1a40d0babf732439234696d80c: registering service...
+2020-12-24 16:43:51,269 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:343fbd1a40d0babf732439234696d80c - registration status: 204
+2020-12-24 16:48:48,995 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-24 16:56:32,837 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-24 16:56:35,322 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-24 16:56:35,322 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-24 16:56:47,717 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-24 16:56:49,454 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1523ms. Found 4 JPA repository interfaces.
+2020-12-24 16:56:54,020 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-24 16:56:58,919 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-24 16:57:03,194 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-24 16:57:03,194 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-24 16:57:03,333 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-24 16:57:03,382 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-24 16:57:03,422 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-24 16:57:04,251 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-24 16:57:04,258 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 28589 ms
+2020-12-24 16:57:11,821 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-24 16:57:17,540 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-24 16:57:20,752 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-24 16:57:23,662 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-24 16:57:23,755 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-24 16:57:27,642 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-24 16:57:29,455 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-24 16:57:35,646 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-24 16:57:44,251 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-24 16:57:44,341 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-24 16:57:50,471 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-24 16:57:50,471 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-24 16:57:51,713 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: ee770830-fd5a-4b56-a207-299e32c79cb0
+
+2020-12-24 16:57:51,713 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: ee770830-fd5a-4b56-a207-299e32c79cb0
+
+2020-12-24 16:57:53,298 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50d68830, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d4d8fcf, org.springframework.security.web.header.HeaderWriterFilter@1dfd5f51, org.springframework.security.web.authentication.logout.LogoutFilter@51b01960, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f0628de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12f3afb5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e53135d, org.springframework.security.web.session.SessionManagementFilter@24855019, org.springframework.security.web.access.ExceptionTranslationFilter@e72dba7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79f227a9]
+2020-12-24 16:57:54,319 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-24 16:57:54,322 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-24 16:57:54,764 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-24 16:57:54,766 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-24 16:57:59,755 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-24 16:58:05,229 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-24 16:58:05,597 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 42067 (http) with context path ''
+2020-12-24 16:58:05,597 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 42067 (http) with context path ''
+2020-12-24 16:58:05,600 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 42067
+2020-12-24 16:58:06,151 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-24 16:58:06,952 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-24 16:58:10,794 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-24 16:58:10,794 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-24 16:58:22,652 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-24 16:58:22,653 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-24 16:58:25,417 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-25 04:44:36,940 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-25 04:44:41,640 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-25 04:44:41,640 INFO c.j.m.i.InventoryApplication [main] No active profile set, falling back to default profiles: default
+2020-12-25 04:45:03,649 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-25 04:45:09,214 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5244ms. Found 4 JPA repository interfaces.
+2020-12-25 04:45:19,550 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+2020-12-25 04:45:29,203 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-25 04:45:37,126 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-25 04:45:37,126 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2020-12-25 04:45:37,356 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-12-25 04:45:37,429 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-12-25 04:45:37,516 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-12-25 04:45:40,615 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-25 04:45:40,634 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 58327 ms
+2020-12-25 04:45:57,334 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-25 04:46:08,437 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-25 04:46:15,359 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-25 04:46:20,683 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-12-25 04:46:20,906 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-25 04:46:31,447 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-12-25 04:46:35,075 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-25 04:46:49,213 INFO o.h.v.i.u.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+2020-12-25 04:47:04,171 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-25 04:47:04,404 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-25 04:47:12,933 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-25 04:47:12,933 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-25 04:47:15,128 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 15c90c9c-1e4f-41f6-95c2-aa2c5ac5a6c2
+
+2020-12-25 04:47:15,128 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 15c90c9c-1e4f-41f6-95c2-aa2c5ac5a6c2
+
+2020-12-25 04:47:16,852 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7674a051, org.springframework.security.web.context.SecurityContextPersistenceFilter@610db97e, org.springframework.security.web.header.HeaderWriterFilter@3c321bdb, org.springframework.security.web.authentication.logout.LogoutFilter@6831d8fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fabf088, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ced35ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a7704c, org.springframework.security.web.session.SessionManagementFilter@3abd581e, org.springframework.security.web.access.ExceptionTranslationFilter@33c2bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50d68830]
+2020-12-25 04:47:17,252 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-25 04:47:17,259 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-25 04:47:17,375 WARN c.n.c.s.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-12-25 04:47:17,379 INFO c.n.c.s.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-25 04:47:20,689 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-25 04:47:26,307 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2020-12-25 04:47:26,542 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 43352 (http) with context path ''
+2020-12-25 04:47:26,542 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 43352 (http) with context path ''
+2020-12-25 04:47:26,557 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 43352
+2020-12-25 04:47:27,154 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-12-25 04:47:28,630 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-12-25 04:47:30,430 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-12-25 04:47:30,446 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-12-25 04:47:32,795 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-12-25 04:47:32,799 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-12-25 04:47:37,352 INFO c.n.d.s.r.a.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-12-25 04:47:37,710 INFO c.n.d.DiscoveryClient [main] Disable delta property : false
+2020-12-25 04:47:37,711 INFO c.n.d.DiscoveryClient [main] Single vip registry refresh property : null
+2020-12-25 04:47:37,712 INFO c.n.d.DiscoveryClient [main] Force full registry fetch : false
+2020-12-25 04:47:37,712 INFO c.n.d.DiscoveryClient [main] Application is null : false
+2020-12-25 04:47:37,713 INFO c.n.d.DiscoveryClient [main] Registered Applications size is zero : true
+2020-12-25 04:47:37,713 INFO c.n.d.DiscoveryClient [main] Application version is -1: true
+2020-12-25 04:47:37,714 INFO c.n.d.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-12-25 04:47:39,551 INFO c.n.d.DiscoveryClient [main] The response status is 200
+2020-12-25 04:47:39,566 INFO c.n.d.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-12-25 04:47:39,592 INFO c.n.d.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-25 04:47:39,618 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1608871659611 with initial instances count: 1
+2020-12-25 04:47:39,638 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+2020-12-25 04:47:39,643 INFO c.n.d.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608871659643, current=UP, previous=STARTING]
+2020-12-25 04:47:39,689 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 210.184 seconds (JVM running for 270.672)
+2020-12-25 04:47:39,689 INFO c.j.m.i.InventoryApplication [main] Started InventoryApplication in 210.184 seconds (JVM running for 270.672)
+2020-12-25 04:47:39,691 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:328fdaf49535c189da937e01d3dce779: registering service...
+2020-12-25 04:47:39,922 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:328fdaf49535c189da937e01d3dce779 - registration status: 204
+2020-12-25 04:52:37,726 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 04:57:37,728 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:02:37,734 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:07:37,738 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:12:37,742 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:17:37,744 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:22:37,746 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:27:37,749 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-25 05:32:37,751 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 05:36:46,340 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 05:36:50,660 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 05:36:50,660 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 05:37:16,595 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 05:37:19,779 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 2944ms. Found 4 JPA repository interfaces.
+25 Dec 2020 05:37:27,948 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 05:37:36,038 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 05:37:43,617 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 05:37:43,617 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 05:37:44,001 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 05:37:44,076 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 05:37:44,171 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 05:37:47,229 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 05:37:47,236 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 55881 ms
+25 Dec 2020 05:38:07,770 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 05:38:16,512 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 05:38:21,716 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 05:38:29,492 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 05:38:29,706 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 05:38:39,651 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 05:38:43,826 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 05:38:58,092 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 05:39:13,078 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 05:39:13,184 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 05:39:21,816 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 05:39:21,816 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 05:39:23,342 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0cadd806-e54a-43ba-8201-5cfe2bddf830
+
+25 Dec 2020 05:39:23,342 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 0cadd806-e54a-43ba-8201-5cfe2bddf830
+
+25 Dec 2020 05:39:24,804 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6754ef00, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fabf088, org.springframework.security.web.header.HeaderWriterFilter@3abd581e, org.springframework.security.web.authentication.logout.LogoutFilter@6b85300e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12f3afb5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bd69e82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@619bd14c, org.springframework.security.web.session.SessionManagementFilter@610db97e, org.springframework.security.web.access.ExceptionTranslationFilter@3c321bdb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7674a051]
+25 Dec 2020 05:39:25,736 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 05:39:25,746 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 05:39:26,484 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 05:39:26,486 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 05:39:29,575 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 05:39:34,791 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 05:39:35,596 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 40805 (http) with context path ''
+25 Dec 2020 05:39:35,596 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 40805 (http) with context path ''
+25 Dec 2020 05:39:35,605 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 40805
+25 Dec 2020 05:39:35,733 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 05:39:36,628 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 05:39:38,025 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 05:39:38,030 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 05:39:39,922 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 05:39:39,934 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 05:39:43,845 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 05:39:44,587 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 05:39:44,588 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 05:39:44,588 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 05:39:44,589 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 05:39:44,590 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 05:39:44,591 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 05:39:44,592 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 05:39:48,147 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 05:39:48,184 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 05:39:48,239 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 05:39:48,308 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608874788285 with initial instances count: 1
+25 Dec 2020 05:39:48,341 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 05:39:48,343 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608874788343, current=UP, previous=STARTING]
+25 Dec 2020 05:39:48,372 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:d28f0f8e29f48e34ca21f52a1c8b7333: registering service...
+25 Dec 2020 05:39:48,453 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 200.15 seconds (JVM running for 244.931)
+25 Dec 2020 05:39:48,453 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 200.15 seconds (JVM running for 244.931)
+25 Dec 2020 05:39:48,862 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:d28f0f8e29f48e34ca21f52a1c8b7333 - registration status: 204
+25 Dec 2020 05:44:44,617 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 05:49:44,618 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 05:54:44,624 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 05:59:44,626 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 06:04:29,182 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:04:30,719 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:04:30,719 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:04:41,049 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:04:42,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1111ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:04:46,510 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:04:50,390 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:04:53,886 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:04:53,886 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:04:54,073 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:04:54,087 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:04:54,164 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:04:55,243 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:04:55,257 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 24284 ms
+25 Dec 2020 06:05:02,338 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:05:08,212 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:05:11,476 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:05:15,134 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 06:05:15,213 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 06:05:19,234 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 06:05:20,956 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 06:05:26,326 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 06:05:31,913 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 06:05:31,955 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 06:05:36,221 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:05:36,221 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:05:37,218 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 6dcde96e-b6d2-43e9-b714-e6cc2a3e6f3e
+
+25 Dec 2020 06:05:37,218 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 6dcde96e-b6d2-43e9-b714-e6cc2a3e6f3e
+
+25 Dec 2020 06:05:37,634 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+25 Dec 2020 06:05:37,779 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:05:37,779 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:05:37,828 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:05:37,832 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:05:39,215 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 06:05:41,348 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:05:41,481 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 41152 (http) with context path ''
+25 Dec 2020 06:05:41,481 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 41152 (http) with context path ''
+25 Dec 2020 06:05:41,486 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 41152
+25 Dec 2020 06:05:41,528 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 06:05:41,956 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 06:05:42,527 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 06:05:42,527 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 06:05:43,253 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 06:05:43,253 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 06:05:45,458 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 06:05:45,833 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 06:05:45,834 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 06:05:45,835 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 06:05:45,835 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 06:05:45,835 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 06:05:45,835 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 06:05:45,836 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 06:05:47,705 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 06:05:47,740 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 06:05:47,770 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 06:05:47,798 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608876347797 with initial instances count: 0
+25 Dec 2020 06:05:47,824 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 06:05:47,845 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608876347845, current=UP, previous=STARTING]
+25 Dec 2020 06:05:47,958 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:975efd6a16453da239e9c0ba6e1b2094: registering service...
+25 Dec 2020 06:05:47,992 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 85.535 seconds (JVM running for 107.146)
+25 Dec 2020 06:05:47,992 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 85.535 seconds (JVM running for 107.146)
+25 Dec 2020 06:05:48,859 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:975efd6a16453da239e9c0ba6e1b2094 - registration status: 204
+25 Dec 2020 06:06:17,737 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+25 Dec 2020 06:06:17,737 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+25 Dec 2020 06:06:17,738 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+25 Dec 2020 06:06:17,738 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+25 Dec 2020 06:06:17,738 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+25 Dec 2020 06:06:17,739 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+25 Dec 2020 06:06:17,739 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+25 Dec 2020 06:06:18,030 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+25 Dec 2020 06:13:25,861 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:13:27,675 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:13:27,675 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:13:37,362 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:13:38,658 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1193ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:13:41,768 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:13:45,238 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:13:48,337 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:13:48,337 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:13:48,481 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:13:48,511 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:13:48,544 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:13:49,535 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:13:49,551 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 21513 ms
+25 Dec 2020 06:13:57,383 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:14:02,619 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:14:04,861 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:14:07,763 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 06:14:07,820 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 06:14:11,797 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 06:14:13,464 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 06:14:18,742 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 06:14:23,402 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 06:14:23,442 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 06:14:26,659 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:14:26,659 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:14:27,273 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 1c25d3a9-9ee6-4ba4-acc1-2b0c1a56e29f
+
+25 Dec 2020 06:14:27,273 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 1c25d3a9-9ee6-4ba4-acc1-2b0c1a56e29f
+
+25 Dec 2020 06:14:27,868 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3301500b, org.springframework.security.web.context.SecurityContextPersistenceFilter@74d7184a, org.springframework.security.web.header.HeaderWriterFilter@12f3afb5, org.springframework.security.web.authentication.logout.LogoutFilter@3ad394e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6831d8fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aaf4f07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24b52d3e, org.springframework.security.web.session.SessionManagementFilter@2c22a348, org.springframework.security.web.access.ExceptionTranslationFilter@3fabf088, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4acf72b6]
+25 Dec 2020 06:14:28,061 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:14:28,065 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:14:28,264 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:14:28,265 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:14:29,839 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 06:14:32,151 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:14:32,303 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 34096 (http) with context path ''
+25 Dec 2020 06:14:32,303 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 34096 (http) with context path ''
+25 Dec 2020 06:14:32,304 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 34096
+25 Dec 2020 06:14:32,343 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 06:14:32,831 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 06:14:33,726 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 06:14:33,727 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 06:14:34,390 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 06:14:34,401 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 06:14:35,824 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 06:14:36,064 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 06:14:36,067 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 06:14:36,067 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 06:14:36,067 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 06:14:36,067 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 06:14:36,067 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 06:14:36,071 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 06:14:37,421 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 06:14:37,449 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 06:14:37,458 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 06:14:37,481 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608876877478 with initial instances count: 1
+25 Dec 2020 06:14:37,495 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 06:14:37,496 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608876877496, current=UP, previous=STARTING]
+25 Dec 2020 06:14:37,539 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 78.381 seconds (JVM running for 105.792)
+25 Dec 2020 06:14:37,545 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:936951e23639af5332920e349523e042: registering service...
+25 Dec 2020 06:14:37,539 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 78.381 seconds (JVM running for 105.792)
+25 Dec 2020 06:14:38,110 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:936951e23639af5332920e349523e042 - registration status: 204
+25 Dec 2020 06:19:36,081 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 06:24:15,947 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:24:20,307 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:24:20,307 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:24:43,087 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:24:46,875 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3525ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:24:54,607 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:25:03,014 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:25:11,168 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:25:11,168 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:25:11,511 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:25:11,641 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:25:11,705 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:25:13,519 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:25:13,532 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 52581 ms
+25 Dec 2020 06:25:30,608 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:25:40,038 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:25:45,842 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:25:50,397 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 06:25:50,634 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 06:26:00,955 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 06:26:04,545 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 06:26:20,037 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 06:26:36,594 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 06:26:36,702 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 06:26:45,348 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:26:45,348 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:26:48,194 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4f4a5ec6-3692-4800-adf0-67f90ca9744e
+
+25 Dec 2020 06:26:48,194 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 4f4a5ec6-3692-4800-adf0-67f90ca9744e
+
+25 Dec 2020 06:26:49,369 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+25 Dec 2020 06:26:49,952 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:26:49,968 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:26:50,086 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:26:50,087 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:26:53,075 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 06:26:59,647 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:26:59,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 39256 (http) with context path ''
+25 Dec 2020 06:26:59,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 39256 (http) with context path ''
+25 Dec 2020 06:26:59,934 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 39256
+25 Dec 2020 06:27:00,047 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 06:27:01,018 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 06:27:02,993 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 06:27:03,003 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 06:27:06,167 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 06:27:06,181 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 06:27:11,118 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 06:27:12,065 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 06:27:12,065 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 06:27:12,066 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 06:27:12,066 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 06:27:12,067 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 06:27:12,067 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 06:27:12,067 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 06:27:15,144 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 06:27:15,178 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 06:27:15,233 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 06:27:15,274 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608877635269 with initial instances count: 1
+25 Dec 2020 06:27:15,302 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 06:27:15,307 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608877635307, current=UP, previous=STARTING]
+25 Dec 2020 06:27:15,348 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:2e5e13d1d34b672e9ea0bccdfdbc7400: registering service...
+25 Dec 2020 06:27:15,390 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 198.761 seconds (JVM running for 244.589)
+25 Dec 2020 06:27:15,390 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 198.761 seconds (JVM running for 244.589)
+25 Dec 2020 06:27:15,912 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:2e5e13d1d34b672e9ea0bccdfdbc7400 - registration status: 204
+25 Dec 2020 06:29:05,728 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:29:12,553 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:29:12,553 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:29:39,946 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:29:43,201 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3007ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:29:51,046 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:30:00,179 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:30:09,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:30:09,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:30:10,033 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:30:10,114 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:30:10,177 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:30:13,584 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:30:13,605 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 60409 ms
+25 Dec 2020 06:30:33,277 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:30:44,223 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:30:47,895 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:34:53,338 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:34:58,451 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:34:58,451 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:35:21,397 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:35:23,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1971ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:35:27,346 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:35:30,993 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:35:34,521 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:35:34,521 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:35:34,652 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:35:34,698 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:35:34,715 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:35:38,782 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:35:38,783 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 39558 ms
+25 Dec 2020 06:35:53,232 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:35:57,484 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:35:59,357 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:36:02,441 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 06:36:02,786 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 06:36:07,620 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 06:36:10,451 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 06:36:15,986 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 06:36:24,386 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 06:36:24,505 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 06:36:29,394 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:36:29,394 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:36:30,358 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: b0d7dffb-0680-453d-9f2f-88a268a013df
+
+25 Dec 2020 06:36:30,358 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: b0d7dffb-0680-453d-9f2f-88a268a013df
+
+25 Dec 2020 06:36:30,942 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ca320ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@24855019, org.springframework.security.web.header.HeaderWriterFilter@e72dba7, org.springframework.security.web.authentication.logout.LogoutFilter@7bd69e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4d8fcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fabf088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d68830, org.springframework.security.web.session.SessionManagementFilter@1dfd5f51, org.springframework.security.web.access.ExceptionTranslationFilter@ea27e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bdaa23d]
+25 Dec 2020 06:36:31,268 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:36:31,281 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:36:31,330 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:36:31,330 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:36:34,034 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 06:36:39,771 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:36:40,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 32931 (http) with context path ''
+25 Dec 2020 06:36:40,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 32931 (http) with context path ''
+25 Dec 2020 06:36:40,498 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 32931
+25 Dec 2020 06:36:40,741 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 06:36:43,029 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 06:36:47,523 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 06:36:47,528 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 06:36:48,473 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 06:36:48,474 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 06:36:51,089 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 06:36:51,433 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 06:36:51,437 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 06:36:51,437 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 06:36:51,437 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 06:36:51,437 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 06:36:51,438 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 06:36:51,438 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 06:36:53,300 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 06:36:53,311 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 06:36:53,343 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 06:36:53,401 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608878213361 with initial instances count: 1
+25 Dec 2020 06:36:53,403 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 06:36:53,404 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608878213404, current=UP, previous=STARTING]
+25 Dec 2020 06:36:53,430 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:6f1d05de0411dbb3de3399dccbbac693: registering service...
+25 Dec 2020 06:36:53,558 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 141.547 seconds (JVM running for 201.658)
+25 Dec 2020 06:36:53,558 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 141.547 seconds (JVM running for 201.658)
+25 Dec 2020 06:36:53,935 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:6f1d05de0411dbb3de3399dccbbac693 - registration status: 204
+25 Dec 2020 06:43:18,427 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:43:24,921 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:43:24,921 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:43:55,699 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:44:00,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4203ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:44:10,547 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:44:20,176 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:44:32,325 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:44:32,325 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:44:32,806 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:44:32,895 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:44:33,004 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:44:36,725 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:44:36,725 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 70899 ms
+25 Dec 2020 06:49:44,295 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:49:49,608 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:49:49,608 INFO com.javasree.ms.inventory.InventoryApplication [main] No active profile set, falling back to default profiles: default
+25 Dec 2020 06:50:14,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25 Dec 2020 06:50:19,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3702ms. Found 4 JPA repository interfaces.
+25 Dec 2020 06:50:29,192 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1cb5c452-8993-367f-9a95-1c036bf79e2d
+25 Dec 2020 06:50:38,612 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$69fc1a62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+25 Dec 2020 06:50:50,391 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:50:50,391 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+25 Dec 2020 06:50:50,989 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:50:51,136 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+25 Dec 2020 06:50:51,253 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+25 Dec 2020 06:50:54,314 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+25 Dec 2020 06:50:54,321 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 63731 ms
+25 Dec 2020 06:51:20,368 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+25 Dec 2020 06:51:35,736 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+25 Dec 2020 06:51:45,458 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+25 Dec 2020 06:51:54,825 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+25 Dec 2020 06:51:55,104 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+25 Dec 2020 06:52:07,228 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+25 Dec 2020 06:52:11,080 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+25 Dec 2020 06:52:27,043 INFO org.hibernate.validator.internal.util.Version [main] HV000001: Hibernate Validator 6.0.19.Final
+25 Dec 2020 06:52:46,540 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25 Dec 2020 06:52:46,697 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+25 Dec 2020 06:52:56,945 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:52:56,945 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25 Dec 2020 06:52:58,688 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bb59ac0f-f054-4087-b455-205406de2f63
+
+25 Dec 2020 06:52:58,688 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bb59ac0f-f054-4087-b455-205406de2f63
+
+25 Dec 2020 06:53:00,036 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@619bd14c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e392345, org.springframework.security.web.header.HeaderWriterFilter@4d4d8fcf, org.springframework.security.web.authentication.logout.LogoutFilter@3aaf4f07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ced35ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74d7184a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323e8306, org.springframework.security.web.session.SessionManagementFilter@6f0628de, org.springframework.security.web.access.ExceptionTranslationFilter@24855019, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a7704c]
+25 Dec 2020 06:53:00,575 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:53:00,589 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:53:00,803 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+25 Dec 2020 06:53:00,838 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+25 Dec 2020 06:53:06,151 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+25 Dec 2020 06:53:12,497 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-auto-1"]
+25 Dec 2020 06:53:12,741 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 38201 (http) with context path ''
+25 Dec 2020 06:53:12,741 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 38201 (http) with context path ''
+25 Dec 2020 06:53:12,744 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 38201
+25 Dec 2020 06:53:12,865 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+25 Dec 2020 06:53:14,282 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+25 Dec 2020 06:53:15,701 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+25 Dec 2020 06:53:15,703 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+25 Dec 2020 06:53:18,729 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+25 Dec 2020 06:53:18,735 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+25 Dec 2020 06:53:21,389 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+25 Dec 2020 06:53:21,557 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+25 Dec 2020 06:53:21,559 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+25 Dec 2020 06:53:21,559 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+25 Dec 2020 06:53:21,559 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+25 Dec 2020 06:53:21,560 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+25 Dec 2020 06:53:21,560 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+25 Dec 2020 06:53:21,561 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+25 Dec 2020 06:53:22,478 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+25 Dec 2020 06:53:22,486 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+25 Dec 2020 06:53:22,506 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+25 Dec 2020 06:53:22,529 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1608879202527 with initial instances count: 1
+25 Dec 2020 06:53:22,552 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application INVENTORYMS with eureka with status UP
+25 Dec 2020 06:53:22,555 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1608879202555, current=UP, previous=STARTING]
+25 Dec 2020 06:53:22,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:274c7eed9e704a2bbafce9b2be080846: registering service...
+25 Dec 2020 06:53:22,622 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 244.102 seconds (JVM running for 297.797)
+25 Dec 2020 06:53:22,622 INFO com.javasree.ms.inventory.InventoryApplication [main] Started InventoryApplication in 244.102 seconds (JVM running for 297.797)
+25 Dec 2020 06:53:22,848 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_INVENTORYMS/inventoryms:274c7eed9e704a2bbafce9b2be080846 - registration status: 204
+25 Dec 2020 06:58:21,571 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+25 Dec 2020 07:03:21,572 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

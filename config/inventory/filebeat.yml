@@ -347,13 +347,14 @@ filebeat.inputs:
 # The tags of the shipper are included in their own field with each
 # transaction published. Tags make it easy to group servers by different
 # logical properties.
-#tags: ["service-X", "web-tier"]
+tags: ["inventory"]
 
 # Optional fields that you can specify to add additional information to the
 # output. Fields can be scalar values, arrays, dictionaries, or any nested
 # combination of these.
-#fields:
-#  env: staging
+fields:
+  env: dev
+  app_module: inventory
 
 # If this option is set to true, the custom fields are stored as top-level
 # fields in the output document instead of being grouped under a fields
@@ -845,7 +846,7 @@ output.logstash:
 
   # Optional index name. The default index name is set to filebeat
   # in all lowercase.
-  #index: 'filebeat'
+  #index: 'inventory'
 
   # SOCKS5 proxy server URL
   #proxy_url: socks5://user:password@socks5-server:2233
@@ -1015,11 +1016,11 @@ setup.template.settings:
 # Enable ILM support. Valid values are true, false, and auto. When set to auto
 # (the default), the Beat uses index lifecycle management when it connects to a
 # cluster that supports ILM; otherwise, it creates daily indices.
-#setup.ilm.enabled: auto
+#setup.ilm.enabled: true
 
 # Set the prefix used in the index lifecycle write alias name. The default alias
 # name is 'filebeat-%{[agent.version]}'.
-#setup.ilm.rollover_alias: 'filebeat'
+#setup.ilm.rollover_alias: 'inventory'
 
 # Set the rollover index pattern. The default is "%{now/d}-000001".
 #setup.ilm.pattern: "{now/d}-000001"
@@ -1040,3 +1041,6 @@ setup.template.settings:
 # Overwrite the lifecycle policy at startup. The default is false.
 #setup.ilm.overwrite: false
 
+#output.elasticsearch.index: "inventory-%{[agent.version]}-%{+yyyy.MM.dd}"
+#setup.template.name: "inventory"
+#setup.template.pattern: "inventory-*"
