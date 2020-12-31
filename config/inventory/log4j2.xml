@@ -6,13 +6,13 @@
         </Console>
         <RollingFile name="LogToFile" fileName="/var/logs/appLogs/app.log" filePattern="/var/logs/appLogs/app.%d{dd-MMM}.log.gz">
             <PatternLayout>
-                <Pattern>%d{DATE} %p %c{10} [%t] %m%n</Pattern>
+                <Pattern>%d{DATE} [%t] [%level] %p %c{10} %m%n</Pattern>
             </PatternLayout>
-	    <Policies>
-        	<SizeBasedTriggeringPolicy size="50MB" />
-    	    </Policies>
-    	    <DefaultRolloverStrategy max="5" />
-         </RollingFile>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="50MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+        </RollingFile>
     </Appenders>
     <Loggers>
         <Logger name="com.javasree.ms.inventory" level="debug" additivity="true">
@@ -22,7 +22,7 @@
         <Logger name="org.springframework.boot" level="info" additivity="true">
             <AppenderRef ref="LogToConsole"/>
             <AppenderRef ref="LogToFile"/>
-	</Logger>
+        </Logger>
         <Root level="info">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>

@@ -11,6 +11,23 @@
 #==========================  Modules configuration =============================
 filebeat.modules:
 
+#------------------------------- Logstash Module -------------------------------
+- module: logstash
+# logs
+log:
+enabled: true
+
+# Set custom paths for the log files. If left empty,
+# Filebeat will choose the paths depending on your OS.
+# var.paths:
+
+# Slow logs
+#slowlog:
+#enabled: true
+
+# Set custom paths for the log files. If left empty,
+# Filebeat will choose the paths depending on your OS.
+#var.paths:
 
 #-------------------------------- MySQL Module --------------------------------
 #- module: mysql
@@ -330,13 +347,14 @@ filebeat.inputs:
 # The tags of the shipper are included in their own field with each
 # transaction published. Tags make it easy to group servers by different
 # logical properties.
-#tags: ["service-X", "web-tier"]
+tags: ["gateway"]
 
 # Optional fields that you can specify to add additional information to the
 # output. Fields can be scalar values, arrays, dictionaries, or any nested
 # combination of these.
-#fields:
-#  env: staging
+fields:
+  env: dev
+  app_module: gateway
 
 # If this option is set to true, the custom fields are stored as top-level
 # fields in the output document instead of being grouped under a fields
@@ -907,24 +925,24 @@ output.logstash:
 # distribution (for example, the sample dashboards).
 # If not set by a CLI flag or in the configuration file, the default for the
 # home path is the location of the binary.
-#path.home:
+path.home: /bin/filebeats
 
 # The configuration path for the Filebeat installation. This is the default
 # base path for configuration files, including the main YAML configuration file
 # and the Elasticsearch template file. If not set by a CLI flag or in the
 # configuration file, the default for the configuration path is the home path.
-#path.config: ${path.home}
+path.config: ${path.home}
 
 # The data path for the Filebeat installation. This is the default base path
 # for all the files in which Filebeat needs to store its data. If not set by a
 # CLI flag or in the configuration file, the default for the data path is a data
 # subdirectory inside the home path.
-#path.data: ${path.home}/data
+path.data: ${path.home}/data
 
 # The logs path for a Filebeat installation. This is the default location for
 # the Beat's log files. If not set by a CLI flag or in the configuration file,
 # the default for the logs path is a logs subdirectory inside the home path.
-#path.logs: ${path.home}/logs
+path.logs: ${path.home}/filebeatlogs
 
 
 # ================================== Template ==================================
@@ -1022,4 +1040,5 @@ setup.template.settings:
 
 # Overwrite the lifecycle policy at startup. The default is false.
 #setup.ilm.overwrite: false
+
 
